@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>SABJ</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-white">
+
+  <!-- Navbar -->
+  <nav class="bg-gradient-to-r from-indigo-600 to-purple-600 py-4">
+    <div class="container mx-auto flex justify-between items-center px-6">
+      <!-- Logo -->
+      <img src="Screenshot_20241118-194421_1-removebg-preview (1).png" alt="Brand Logo" class="h-20" />
+      
+      <ul class="flex space-x-6 text-white">
+        <li><a href="#features" class="hover:text-gray-300 transition duration-300">Features</a></li>
+        <li><a href="#pricing" class="hover:text-gray-300 transition duration-300">Pricing</a></li>
+        <li><a href="#services" class="hover:text-gray-300 transition duration-300">Services</a></li>
+        <li><a href="#testimonials" class="hover:text-gray-300 transition duration-300">Testimonials</a></li>
+        <li><a href="#contact" class="hover:text-gray-300 transition duration-300">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section with Background Image -->
+  <section class="bg-cover bg-center relative h-screen" style="background-image: url('https://images.unsplash.com/photo-1593642532973-d31b6557fa68');">
+    <div class="absolute inset-0 bg-black opacity-50"></div>
+    <div class="container mx-auto text-center text-white relative z-10 py-40">
+      <h1 class="text-5xl font-extrabold mb-6 animate__animated animate__fadeIn">Boost Your Business to the Next Level</h1>
+      <p class="text-xl mb-8">Innovative solutions designed for businesses of all sizes.</p>
+      <div class="flex justify-center space-x-6">
+        <a href="#get-started" class="bg-gradient-to-r from-blue-500 to-blue-600 text-white py-3 px-8 rounded-full text-lg transform hover:scale-105 hover:bg-blue-500 transition duration-300">Get Started</a>
+        <a href="#learn-more" class="border-2 border-white text-white py-3 px-8 rounded-full text-lg transform hover:scale-105 hover:bg-white hover:text-blue-600 transition duration-300">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services We Offer Section -->
+  <section id="services" class="py-20 bg-gray-800">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold text-white mb-6">Services We Offer</h2>
+      <p class="text-lg text-gray-400 mb-10">We specialize in providing top-tier services for all your business needs.</p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Web Development -->
+        <div class="bg-gray-700 p-8 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300">
+          <img src="How-Many-Web-Developers-in-the-World-1.avif" alt="Web Development" class="w-full h-40 object-cover mb-4 rounded-lg" />
+          <h3 class="text-2xl font-semibold mb-2">Web Development</h3>
+          <p class="text-gray-300">Custom websites built for performance, security, and scalability. Your business deserves the best online presence.</p>
+        </div>
+        <!-- Graphic Design -->
+        <div class="bg-gray-700 p-8 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300">
+          <img src="d.png" alt="Graphic Design" class="w-full h-40 object-cover mb-4 rounded-lg" />
+          <h3 class="text-2xl font-semibold mb-2">Graphic Design</h3>
+          <p class="text-gray-300">From logos to digital art, our design team will bring your brand's vision to life with stunning visuals.</p>
+        </div>
+        <!-- SEO Optimization -->
+        <div class="bg-gray-700 p-8 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300">
+          <img src="b.png" alt="SEO Optimization" class="w-full h-40 object-cover mb-4 rounded-lg" />
+          <h3 class="text-2xl font-semibold mb-2">SEO Optimization</h3>
+          <p class="text-gray-300">Improve your search engine rankings and increase organic traffic to your website with our expert SEO services.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="py-20 bg-gradient-to-r from-purple-600 to-indigo-600 text-center">
+    <div class="container mx-auto">
+      <h2 class="text-4xl font-bold text-white mb-8">Pricing Plans</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-gray-800 p-8 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300">
+          <h3 class="text-2xl font-semibold text-white mb-4">Basic</h3>
+          <p class="text-xl text-gray-400 mb-4">$10/month</p>
+          <ul class="text-gray-300 space-y-2 mb-6">
+            <li>1 User</li>
+            <li>Basic Support</li>
+            <li>Basic Features</li>
+          </ul>
+          <a href="#" class="bg-blue-500 text-white py-3 px-8 rounded-full hover:bg-blue-600 transition duration-300">Choose Plan</a>
+        </div>
+        <div class="bg-blue-600 p-8 rounded-lg shadow-lg hover:shadow-xl transform scale-105 transition duration-300">
+          <h3 class="text-2xl font-semibold text-white mb-4">Standard</h3>
+          <p class="text-xl text-gray-400 mb-4">$25/month</p>
+          <ul class="text-gray-300 space-y-2 mb-6">
+            <li>5 Users</li>
+            <li>Priority Support</li>
+            <li>Advanced Features</li>
+          </ul>
+          <a href="#" class="bg-white text-blue-600 py-3 px-8 rounded-full hover:bg-gray-100 transition duration-300">Choose Plan</a>
+        </div>
+        <div class="bg-gray-800 p-8 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300">
+          <h3 class="text-2xl font-semibold text-white mb-4">Premium</h3>
+          <p class="text-xl text-gray-400 mb-4">$50/month</p>
+          <ul class="text-gray-300 space-y-2 mb-6">
+            <li>Unlimited Users</li>
+            <li>24/7 Support</li>
+            <li>All Features Included</li>
+          </ul>
+          <a href="#" class="bg-blue-500 text-white py-3 px-8 rounded-full hover:bg-blue-600 transition duration-300">Choose Plan</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="bg-gray-900 py-20 text-center">
+    <div class="container mx-auto">
+      <h2 class="text-4xl font-bold text-white mb-6">What Our Clients Say</h2>
+      <p class="text-lg text-gray-400 mb-10">Hear from the people who've experienced our services firsthand.</p>
+      <div class="flex justify-center space-x-6">
+        <div class="max-w-sm bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300">
+          <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="Client 1" class="w-16 h-16 rounded-full mx-auto mb-4" />
+          <h3 class="text-xl font-semibold text-white mb-2">John Doe</h3>
+          <p class="text-gray-400 mb-4">"Fantastic service! Our website performance improved significantly. Highly recommend!"</p>
+        </div>
+        <div class="max-w-sm bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300">
+          <img src="https://randomuser.me/api/portraits/women/2.jpg" alt="Client 2" class="w-16 h-16 rounded-full mx-auto mb-4" />
+          <h3 class="text-xl font-semibold text-white mb-2">Jane Smith</h3>
+          <p class="text-gray-400 mb-4">"Amazing design team! They truly brought my ideas to life. Great customer support too!"</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-6">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2024 SABJ. All rights reserved.</p>
+      <p>Designed with ❤️ using Tailwind CSS</p>
+    </div>
+  </footer>
+
+</body>
+</html>
